@@ -26,3 +26,7 @@ print(course)
 
 another = course[:]
 print('This is another : ', another)
+
+
+
+print(course[1:-1])

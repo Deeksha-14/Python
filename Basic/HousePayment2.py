@@ -16,4 +16,5 @@ if credit_score == '1':
 else:
     credit_score_value = 'bad credit'
 
-print(name, ' have ', credit_score_value, ' hence they will have to put down sum of ', payment, ' dollars')
+#print(name, ' have ', credit_score_value, ' hence they will have to put down a sum of ', payment, ' dollars')
+print(f'{name} have {credit_score_value} hence they will have to put down a sum of {payment} dollars')
